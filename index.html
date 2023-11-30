@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Images Slider</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 style="text-align: center">Images Sliders</h1>
+    <div class="slidshow-container">
+      <div class="myslides fade">
+        <img
+          src="Images/slide1.jpg"
+          alt="Slide-one"
+          width="100%"
+          height="600px"
+        />
+        <div class="text">Caption One</div>
+      </div>
+      <div class="myslides fade">
+        <img
+          src="Images/slide2.jpg"
+          alt="Slide-two"
+          width="100%"
+          height="600px"
+        />
+        <div class="text">Caption Two</div>
+      </div>
+      <div class="myslides fade">
+        <img
+          src="Images/slide3.jpg"
+          alt="Slide-three"
+          width="100%"
+          height="600px"
+        />
+        <div class="text">Caption Three</div>
+      </div>
+      <div class="myslides fade">
+        <img
+          src="Images/slide4.jpg"
+          alt="Slide-four"
+          width="100%"
+          height="600px"
+        />
+        <div class="text">Caption Four</div>
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(0)"></span>
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
